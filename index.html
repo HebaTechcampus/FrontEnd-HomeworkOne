@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Homewotk #1</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+                <li><a href="#">courses</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+
+		<article>
+			<header>
+				<h2>Techcampus Courses</h2>
+				<p>Date <time datetime="2019-03-26T16:31:24+02:00">March 26th 2019</time></p>
+			</header>
+			<p style="font-size:10px">titor nec. Nunc in purueifend mattises ac turpis egestas.</p>
+            <b>b tag followed by br tag</b><br>
+            <strong>strong tag</strong><br>
+            <i>i tag</i><br>
+            <em>em tag</em><br>
+            <mark>mark tag</mark><br>
+            <small>small tag</small><br>
+            <del>del tag</del><br>
+            <ins>ins tag</ins><br>
+            <p>the next tag is <sub>sub tag</sub></p>
+            <p>the next tag is <sup>sup tag</sup></p>
+
+            <table>
+              <tr>
+                <th>Course</th>
+                <th>Number of students</th>
+              </tr>
+              <tr>
+                <td>DevOps</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>UI/UX</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>Front end</td>
+                <td>30</td>
+              </tr>
+            </table>
+
+		</article>
+
+		<article>
+			<header>
+				<h2>Front end Course</h2>
+				<p>Started on <time datetime="2019-03-25T19:00:00+02:00">March 25th 2019</time></p>
+			</header>
+			<p>Ut pulvinar ornare ex, et congue dui porttitor nec. Net netus et malesuada fames ac turpis egestas.</p>
+		</article>
+
+        <figure>
+          <img src="img/techcampus_slider.png" alt="techcampus_slider" style="width:100%">
+          <figcaption>Fig.1 - techcampus slider.</figcaption>
+        </figure>
+
+	</section>
+
+    <section>
+        <form action="index.html" method="post" target="_blank">
+            <fieldset>
+                <legend>Personal information:</legend>
+                 <label>First name:</label><br>
+                 <input type="text" name="firstname" placeholder="enter your first name"><br><br>
+
+                 <label>Last name:</label><br>
+                 <input type="text" name="lastname" placeholder="enter your last name"><br><br>
+
+                 <label>Email:</label><br>
+                 <input type="email" name="email" placeholder="enter your email"><br><br>
+
+                 <label>Phone:</label><br>
+                 <input type="phone" name="phone" placeholder="enter your phone"><br><br>
+
+                 <label>Number:</label><br>
+                 <input type="number" name="number" placeholder="enter a number"><br><br>
+
+                 <label>Password:</label><br>
+                 <input type="password" name="password" placeholder="enter your password"><br><br>
+
+                 <label>File:</label><br>
+                 <input type="file" name="file"><br><br>
+
+                 <label>Color:</label><br>
+                 <input type="color" name="color"><br><br>
+
+                 <label>Time:</label><br>
+                 <input type="time" name="time"><br><br>
+
+                 <input type="radio" name="gender" value="male" checked> Male<br>
+                 <input type="radio" name="gender" value="female"> Female<br>
+                 <input type="radio" name="gender" value="other"> Other<br><br>
+                 <textarea rows="4" cols="50" placeholder="Techcampus front end course..."></textarea><br><br>
+                 <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h2>This section includes iframe tag</h2>
+        <iframe src="https://techcampus.com/" height="200" width="300"></iframe>
+    </section>
+
+    <section>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="655" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=greenland&t=k&z=3&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:655px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:655px;}</style></div>
+    </section>
+
+    <section>
+        <p>This section includes video, audio, and object tags</p>
+        <div>
+            <video width="320" height="240" controls>
+              <source src="movie.mp4" type="video/mp4">
+              <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div>
+            <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio tag.
+            </audio>
+
+        </div>
+        <object width="400" height="400" data="whitebird1.swf">
+            Your browser does not support the object tag.
+        </object>
+    </section>
+
+	<aside>
+		<h2>About courses</h2>
+		<p>Ut pulvinar ornare ex, et congue dui porttitor nec. Nean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	</aside>
+
+	<footer>
+		<p>Copyright 2019 Heba</p>
+	</footer>
+
+</body>
+</html>
